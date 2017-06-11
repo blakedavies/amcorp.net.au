@@ -1,12 +1,12 @@
 /* FONTS */
 	@font-face {
 		font-family:'Nevis';
-		src:url('../fonts/Nevis/Nevis.eot');
-		src:url('../fonts/Nevis/Nevis.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Nevis/Nevis.woff2') format('woff2'),
-		url('../fonts/Nevis/Nevis-Bold.woff') format('woff'),
-		url('../fonts/Nevis/Nevis-Bold.ttf') format('truetype'),
-		url('../fonts/Nevis/Nevis-Bold.svg#svgFontName') format('svg');
+		src:url('../fonts/Nevis/nevis.eot');
+		src:url('../fonts/Nevis/nevis.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Nevis/nevis.woff2') format('woff2'),
+		url('../fonts/Nevis/nevis-Bold.woff') format('woff'),
+		url('../fonts/Nevis/nevis-Bold.ttf') format('truetype'),
+		url('../fonts/Nevis/nevis-Bold.svg#svgFontName') format('svg');
 	}
 	@font-face {
 		font-family:'Bebas';
