@@ -68,7 +68,7 @@
 		-o-z-index:9999;
 		-ms-z-index:9999;
 		z-index:9999;
-		background:url('../img/loading_icon_cubes.gif') 50% 50% no-repeat rgb(255,255,255);
+		background:url('../img/loading_icon_gears.gif') 50% 50% no-repeat rgb(255,255,255);
 	}
 	div.popup {
 		-webkit-position:fixed;
@@ -716,9 +716,9 @@
 	#contact div.layer div.container p {
 		font-family:'Arial';
 		color:rgb(255,255,255);
-		font-size:20px;
-		line-height:120%;
-		padding:5px;
+		font-size:7.5vmin;
+		margin-top:25px;
+		margin-bottom:25px; 
 	}
 	#contact div.parallax-window div.layer div.container div.wrapper {
 		width:100%;
@@ -740,38 +740,28 @@
 	#contact div.parallax-window div.layer div.container div.wrapper div.box form div.inner input.phone, 
 	#contact div.parallax-window div.layer div.container div.wrapper div.box form div.inner input.email {
 		margin-bottom:15px;
-		padding:10px;
+		padding:20px;
 		width:100%;
-		font-family:'Arial'; 
+		font-family:'Nevis'; 
 		font-size:15px;
-		background-color:rgb(141,191,32);
+		background-color:rgba(98,98,98,0.5);
 		color:rgb(255,255,255);
 		text-decoration:none; 
 		display:inline-block;
 		border:2px solid rgb(141,191,32);
-		-webkit-border-radius:5px;
-		-moz-border-radius:5px;
-		-o-border-radius:5px;
-		-ms-border-radius:5px;
-		border-radius:5px;
 	}
 	#contact div.parallax-window div.layer div.container div.wrapper div.box form div.inner textarea {
 		height:100px;
 		margin-bottom:15px;
-		padding:10px;
+		padding:20px;
 		width:100%;
-		font-family:'Arial'; 
+		font-family:'Nevis'; 
 		font-size:15px;
-		background-color:rgb(141,191,32);
+		background-color:rgba(98,98,98,0.5);
 		color:rgb(255,255,255);
 		text-decoration:none; 
 		display:inline-block;
 		border:2px solid rgb(141,191,32);
-		-webkit-border-radius:5px;
-		-moz-border-radius:5px;
-		-o-border-radius:5px;
-		-ms-border-radius:5px;
-		border-radius:5px;
 	}
 	#contact div.parallax-window div.layer div.container div.wrapper div.box form div.inner input::-webkit-input-placeholder {
     color:rgb(225,225,225);
@@ -803,8 +793,8 @@
 	}	
 	#contact div.parallax-window div.layer div.container div.wrapper div.box form input.submit {
 		cursor:pointer;
-		padding:10px;
-		font-family:'Arial'; 
+		padding:20px;
+		font-family:'Nevis'; 
 		font-size:15px;
 		margin-bottom:15px;
 		background-color:rgb(141,191,32);
@@ -812,11 +802,6 @@
 		text-decoration:none; 
 		display:inline-block;
 		border:2px solid rgb(141,191,32);
-		-webkit-border-radius:5px;
-		-moz-border-radius:5px;
-		-o-border-radius:5px;
-		-ms-border-radius:5px;
-		border-radius:5px;
 		-webkit-transition:background-color 0.25s linear, color 0.25s linear, border 0.25s linear;
 		-moz-transition:background-color 0.25s linear, color 0.25s linear, border 0.25s linear;
 		-o-transition:background-color 0.25s linear, color 0.25s linear, border 0.25s linear;
@@ -834,10 +819,9 @@
 		border:2px solid rgb(141,191,32);
 	}
 	#contact div.parallax-window div.layer div.container div.wrapper div.box div.thank-you-box {
-		margin:25px;
+		margin-bottom:105px;
+		margin-top:85px;
 		padding:5px;
-		background-color:rgb(255,255,255);
-		border:2px solid rgb(255,255,255);
 		-webkit-border-radius:5px;
 		-moz-border-radius:5px;
 		-o-border-radius:5px;
@@ -848,23 +832,15 @@
 		margin:0;
 		margin-bottom:15px;
 		margin-top:15px;
-		font-family:'Quicksand'; 
-		font-size:25px;
-		font-weight:800;
-		color:rgb(25,27,29);
+		font-family:'Nevis'; 
+		font-size:35px;
+		color:rgb(141,191,32);
 	}
 	#contact div.parallax-window div.layer div.container div.wrapper div.box div.thank-you-box p.thank-you {
 		margin:0;
-		font-family:'Quicksand'; 
-		font-size:15px;
-		font-weight:400;
-		color:rgb(25,27,29);
-	}
-	#contact div.parallax-window div.layer div.container div.wrapper div.box div.inner {
-		width:23%;
-		display:inline-block;
-		vertical-align:middle;
-		padding:5px;
+		font-family:'Nevis'; 
+		font-size:20px;
+		color:rgb(141,191,32);
 	}
 /* FOOTER */
 	#footer footer {
@@ -1049,7 +1025,7 @@
 			vertical-align:top;
 		}
 		#contact div.parallax-window div.layer div.container div.wrapper div.box form div.inner textarea {
-			height:153px;
+			height:213px;
 		}
 	}
 	@media only screen and (min-width:675px) {
