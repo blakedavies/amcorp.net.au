@@ -573,6 +573,25 @@
 	#merchandise div.layer div.container div.wrapper div.box div.inner a img {
 		width:100%;
 		height:auto;
+		-webkit-transition:0.25s ease-in-out;
+		-moz-transition:0.25s ease-in-out;
+		-o-transition:0.25s ease-in-out;
+		-ms-transition:0.25s ease-in-out;
+		transition:0.25s ease-in-out;
+	}
+	#merchandise div.layer div.container div.wrapper div.box div.inner a img:hover {
+		-webkit-transform:rotate(-5deg);
+		-moz-transform:rotate(-5deg);
+		-o-transform:rotate(-5deg);
+		-ms-transform:rotate(-5deg);
+		transform:rotate(-5deg);
+	}
+	html.can-touch #merchandise div.layer div.container div.wrapper div.box div.inner a img:hover {
+		-webkit-transform:rotate(0deg);
+		-moz-transform:rotate(0deg);
+		-o-transform:rotate(0deg);
+		-ms-transform:rotate(0deg);
+		transform:rotate(0deg);
 	}
 	#merchandise div.layer:nth-child(3) {
 		background-image:url("../img/pexels-photo-26549.jpg");
