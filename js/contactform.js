@@ -1,7 +1,7 @@
 $('#gform').submit(function(e) {
 	      e.preventDefault();
 	      $.ajax({
-	        url: "https://docs.google.com/a/blakedavies.net/forms/d/1p3dSZNHgv-_DM0GgDqPz5bTCO9V3eSgiPQ_Pv34QbI4/formResponse",
+	        url: "https://docs.google.com/a/blakedavies.net/forms/d/e/1FAIpQLSd9oGWcAL9fvnf-P7900RZyQMv7AkKtJZq2-iOdvgq4Q61onA/formResponse",
 	        data: $(this).serialize(),
 	        type: "POST",
 	        dataType: "xml",
