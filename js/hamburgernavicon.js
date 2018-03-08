@@ -1,1 +1,1 @@
-$(document).ready(function(){$("#home header div.container div.hidden-container div.menu-icon").click(function(){$(this).toggleClass("open");$("#home div.layer header").toggleClass("sticky2");});});
+$(document).ready(function(){$("#home header div.container div.hidden-container div.menu-icon").click(function(){$(this).toggleClass("open");});});
